@@ -44,7 +44,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '© All Team Bot Discussion'
+  var sticker_author = '© DaniBotz-Ofc'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -65,7 +65,7 @@ global.author = sticker_author
 const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
-  var colong_name = '© All Team Bot Discussion'
+  var colong_name = '© DaniBotz-Ofc'
   var colong_author = 'Ciss 📸'
  } else {
   var colong_name = ctickerpack.cpackname
@@ -83,7 +83,7 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = '© All Team Bot Discussion'
+global.wm = '© DaniBotz-Ofc'
 global.ucpn = ''
 
 //================= Url =================//
@@ -96,7 +96,7 @@ global.web1 = 'https://anu.rasell.repl.co'
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = '© All Team Bot Discussion'
+global.bodlink = '© DaniBotz-Ofc'
 
 //========= Url Template Button =========//
 global.dtu = 'Group Bot WhatsApp'
@@ -104,7 +104,7 @@ global.urlnya = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
-global.nmbrnya = '+62 822-5604-8971'
+global.nmbrnya = '+6281251549899'
 
 
 //============ Proses Bot ============//
