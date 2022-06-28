@@ -87,7 +87,7 @@ global.wm = '© DaniBotz-Ofc'
 global.ucpn = ''
 
 //================= Url =================//
-global.linkgc = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
+global.linkgc = 'https://chat.whatsapp.com/BiJs5Xl4oJA1Ama5BahUwd'
 global.linkig = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
 global.linkyt = ''
 global.linkfb = 'https://fb.watch/aYv0jAffAO'
@@ -99,8 +99,8 @@ global.titlink = 'Folllow me on Instagram'
 global.bodlink = '© DaniBotz-Ofc'
 
 //========= Url Template Button =========//
-global.dtu = 'Group Bot WhatsApp'
-global.urlnya = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
+global.dtu = 'Group DaniBotz-Ofc'
+global.urlnya = 'https://chat.whatsapp.com/BiJs5Xl4oJA1Ama5BahUwd'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
