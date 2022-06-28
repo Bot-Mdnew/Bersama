@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
     ], m)
     await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[4]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, { mentions: [m.sender] })
   } catch {
-    const sentMsg = await conn.sendContact(m.chat, `${owner[4]}`, `${await conn.getName(owner[0] + '@s.whatsapp.net')}`, m)
+    const sentMsg = await conn.sendContact(m.chat, `${owner[4]}`, `${await conn.getName(owner[4] + '@s.whatsapp.net')}`, m)
     await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[4]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, { mentions: [m.sender] })
   }
 }
