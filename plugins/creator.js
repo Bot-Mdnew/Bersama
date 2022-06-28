@@ -7,10 +7,10 @@ let handler = async (m, { conn }) => {
       [`${owner[3]}`, `${await conn.getName(owner[3] + '@s.whatsapp.net')}`, `👑 Developer Bot `, `🚫 Don't call me 😡`, `amirul@skyn.tech`, `🇮🇩 Indonesia`, `🚀 https://github.com/amiruldev20`, `👤 Sudah ada pawang banh 😣`]
       [`${owner[4]}`, `${await conn.getName(owner[4] + '@s.whatsapp.net')}`, `👑 Developer Bot `, `📵 Don't call me 😡`, `botzdani743@gmail.com`, `🇮🇩 Indonesia`, `🚀 https://github.com/Bot-Mdnew`, `👤 Gada pawang Nih senggol dong 😣`],
     ], m)
-    await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[0]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, { mentions: [m.sender] })
+    await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[4]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, { mentions: [m.sender] })
   } catch {
-    const sentMsg = await conn.sendContact(m.chat, `${owner[0]}`, `${await conn.getName(owner[0] + '@s.whatsapp.net')}`, m)
-    await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[0]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, { mentions: [m.sender] })
+    const sentMsg = await conn.sendContact(m.chat, `${owner[4]}`, `${await conn.getName(owner[0] + '@s.whatsapp.net')}`, m)
+    await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[4]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, { mentions: [m.sender] })
   }
 }
 handler.help = ['owner']
